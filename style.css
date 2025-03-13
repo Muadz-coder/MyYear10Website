@@ -27,6 +27,14 @@ img {
     text-align: center;
     position: relative;
 }
+/* Set the background for the whole website */
+body {
+    background-image: url('path_to_your_image.jpg'); /* Put your image path here */
+    background-color: #58b09c; /* Optional: Add a fallback color */
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
 
 /* BIG text styling for the hero section text */
 .hero-text {
@@ -36,10 +44,10 @@ img {
 
 /* nice big font on a banner style background */
 .topic-title{
-    color: rgba(21, 255, 0, 0.781);
+    color: #10f01d;
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(14, 139, 87);
+    
     text-align: center;
 }
 
